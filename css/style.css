@@ -1,0 +1,1440 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    /* background-color : rgb(246, 249, 253); */
+    background-color: rgb(244, 249, 255);
+    color: #34364a;
+    font-family: Josefin Sans;
+}
+
+
+/* Navbar */
+
+.navbar { 
+    /* background-image: linear-gradient(#ffee00, #05c54f); */
+    background-color : rgb(244, 249, 255)!important ;
+    position: relative;
+    font-family: poppins;
+    font-weight: 500;
+    /* position: fixed; */
+    width: 100%;
+    z-index: 1;
+    height: auto;
+    
+} 
+
+.navbar-toggler-icon {
+    width: 30px;
+    margin-left: -4px;
+    margin-top: -2px;
+}
+
+.navbar button {
+    width: 50px;
+    height: 40px;
+    
+}
+
+.navbar .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}  
+
+
+ .nav-link {
+     color: #333232 !important;
+     margin-left: 5px;
+     font-size: 16px;
+    
+    }
+
+.navbar .dropdown-menu {
+    background-color: rgb(246, 249, 253);
+    border : 1px solid rgb(233, 233, 233)
+    
+}
+
+.navbar .dropdown-item {
+    color: #000000;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-weight: 400; 
+    
+}
+
+.navbar-logo img {
+        width: 160px;   
+    }
+
+
+ /*  Jumbotron */
+
+.jumbotron-tk {
+    background-color: rgb(246, 249, 253);
+    height: auto;
+    width: 100%;
+    padding-top: 30px;
+}
+
+
+.container-jumbotron {
+    width: 280px;
+    margin: auto;
+}
+    
+.jumbotron-row .jumbotron-text {
+    margin-top : 20px;
+}
+    
+.jumbotron-text h1 {
+    font-size: 32px;
+
+    font-weight: 700;
+}
+    
+.jumbotron-text h2 {
+    margin-top: -7px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Josefin Sans;
+    font-weight: 700;
+
+}
+    
+.jumbotron-text p {
+    font-weight: 300;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #2c2c2c;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.jumbotron-img img {
+    margin-top: 10px;
+    width: auto;
+    border-radius: 13px;
+    height: 190px;
+    box-shadow: 2px 2px 8px #333232;
+
+}
+
+
+
+/* TKIT 1 & 2 */
+
+.tkit1-2 {
+    width: 100%;
+    height: auto;
+}
+
+.container-tkit{
+    width: 280px;
+    margin: auto;
+}
+
+.image-tkit1 img {
+    display: none;
+    
+}
+
+.text-tkit1 h1 {
+    margin-top: 5px;
+    color: #05c54f;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text-tkit1 hr {
+    margin-top: -6px;
+    width: 212px;
+    border: solid 1px #8a8a8a;
+    margin-left: 35px;
+}
+
+.text-tkit1 p {
+    margin-top: 7px;
+    font-size: 17px;
+    color: #333232;
+    line-height: 25px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.tkit1 .small-device img {
+    width : 280px;
+    height: 180px;
+    margin-left: 16px;
+    margin-bottom: 20px;
+    border-radius: 30px 2px;
+    box-shadow: 2px 2px 7px #333232;
+    margin-top: 10px;
+}
+
+
+.tkit2 {
+    margin-top: 16px;
+}
+
+.text-tkit2 h1{
+    text-align: center;
+}
+
+.text-tkit2 hr {
+   text-align: center;
+}
+
+.tkit2 .small-device img {
+    width : 280px;
+    height: 180px;
+    border-radius: 2px 30px;
+}
+
+
+
+/*  Choose Us */
+
+.choose-us {
+    width: 100%;
+    height: auto;
+}
+
+.container-choose, .container-jenjang {
+    width: 280px;
+    margin: auto;
+}
+
+.title h1 {
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.subtitle p {
+    margin-top : 5px;
+    font-size: 17px;
+    color: #333232;
+    line-height: 25px;
+    margin-bottom: 25px;
+    font-weight: 300;
+    text-align: justify;
+    
+}
+
+.choose-us .card, .jenjang .card {
+    width: 134px;
+}
+
+
+.choose-us .card, .jenjang .card {
+    background-color: rgb(255, 255, 255);
+    border: #8f8f8f;
+    box-shadow: 0px 1px 5px #444444;
+    border-radius: 15px;
+}
+
+
+
+.choose-us .card img, .jenjang .card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: .2px solid #cecece;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+.choose-us h5, .jenjang h5 {
+    font-size: 15px;
+    color: #05c54f;
+    text-align: center;
+    font-weight: 700;
+}
+
+.choose-us .card p, .jenjang .card p {
+    margin-top : 10px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #333232;
+    line-height: 17px;
+    text-align: center;
+}
+
+.choose-us .card-sm {
+    margin-top: 40px;
+}
+
+.container-jenjang {
+    margin-top: 20px;
+}
+
+/* Note */
+
+.note {
+    background-image: url(../gambar/grad.jpg);
+    background-size: cover;
+    
+    height: 200px;
+}
+
+.container-note {
+    width: 280px;
+    margin: auto;
+}
+
+.note h5 {
+    font-family: Satisfy;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+    text-shadow: 1px 1px #000000;;
+    
+}
+
+.container-footer {
+    width : 280px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.footer .ypi h1 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+
+.footer .ypi p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer .web h1 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.footer .web hr {
+    width: 65px;
+    border: 1px solid #333232;
+    margin-top: -10px;
+}
+
+.footer .web p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.footer .others {
+    margin-top: 20px;
+}
+
+.footer .others h1 {
+    font-size: 17px;
+}
+
+.footer .office {
+    margin-top: 40px;
+}
+
+.footer .office h1 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+.footer .office p {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+
+@media (min-width: 410px) {
+
+    .container-jumbotron, .container-tkit,
+    .container-choose, .container-jenjang, .container-note, .container-footer {
+        width: 350px;
+    }
+
+    .jumbotron-img img {
+        margin: auto;
+        
+    }
+
+    .text-tkit1 hr {
+        margin-left: 70px;
+    }
+
+    .tkit1 .small-device img {
+        margin-left: 50px;
+    }
+
+    .choose-us .card, .jenjang .card {
+        width: 160px;
+    }
+
+    .note {
+        height: 220px;
+    }
+
+    .note h5 {
+        padding-top: 50px;
+        font-size: 20px;
+    }
+
+    .footer .ypi h1, .footer .office h1 {
+        font-size: 19px;
+    }
+
+    .footer .ypi p {
+        font-size: 16px;
+    }
+
+    .footer .office p {
+        font-size: 16px;
+    }
+}
+
+/* ==========================================================================================  */
+
+/*HP Horizontal Version*/
+@media (min-width: 576px) { 
+
+     /* Navbar */
+    
+    .navbar {
+        width: 100%;
+    }
+    
+    .navbar .container-fluid {
+        padding-right: 15px;
+        padding-left: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }  
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .navbar .dropdown-item {
+        font-size: 15px;
+    }
+
+    .navbar-logo img {
+        width: 160px;
+    }
+    
+    /* Jumbotron */
+
+    .jumbotron-tk {
+        height: 250px;
+        background-color: rgb(236, 244, 253);
+    }
+
+    .container-jumbotron {
+        width: 520px;
+        margin: auto;
+        margin-top: 15px;
+    }
+        
+    .jumbotron-row .jumbotron-text {
+        margin-top : 10px;
+    }
+        
+    .jumbotron-text h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+        
+    .jumbotron-text h2 {
+        margin-top: -8px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+        
+    .jumbotron-text p {
+        margin-top: 5px;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 300;
+    }
+    
+    .jumbotron-img img {
+        border-radius: 25px;
+        width: auto;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin: left;
+        box-shadow: 1px 1px 6px #333232;
+    }
+
+    /* TKIT 1 & 2 */
+
+    .container-tkit{
+        width: 450px;
+    }
+
+    .image-tkit1 img {
+        display: block;
+        width: auto;
+        height: 220px;
+        border-radius: 40px 5px;
+        margin: auto;
+        box-shadow: 2px 2px 7px #333232;
+    }
+
+    .text-tkit1 h1 {
+        color: #05c54f;
+        margin-top: 0px;
+        font-size: 16px;
+        text-align: left;
+        font-weight: 700;
+    }
+
+    .text-tkit1 hr {
+        width: 155px;
+        margin-left: 0px;
+        margin-top: -8px;
+    }
+
+    .text-tkit1 p {
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: 300;
+        margin-top: -5px;
+    }
+
+    .tkit1 .small-device img {
+        display: none;
+    }
+
+    .tkit2 {
+        padding-top: 60px;
+    }
+
+    .text-tkit2 h1 {
+        text-align: left;
+        margin-left: -1px;
+        margin-top: -14px;
+    }
+
+    .text-tkit2 hr {
+        margin-left: 0px;
+        width: 159px;
+     }
+
+    .tkit2 .image-tkit2 img {
+        display: block;
+        margin-left: auto;
+        border-radius: 5px 40px;
+    }
+
+/* Choose Us */
+
+    .container-choose {
+        width: 500px;
+    }
+
+    .choose-us .card-sm-md {
+        margin-top: 0px;
+    }
+
+    .choose-us .card, .jenjang .card {
+        width: auto;
+    }
+
+    .title h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .subtitle p {
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: 300;
+        margin-top: 0px;
+    }
+
+    .choose-us .card img, .jenjang .card img{
+        width: 70px;
+        height: 70px;
+        margin-top: 15px;
+    }
+
+    .choose-us h5, .jenjang h5 {
+        font-size: 15px;
+        margin-top: -5px;
+        font-weight: 700;
+    }
+
+    .choose-us .card p, .jenjang .card p { 
+        font-size: 13px;
+        line-height: 15px;
+        margin-top : -5px;
+        font-weight: 300;
+    }
+
+    .container-jenjang {
+        width: 320px;
+    }
+
+    .note {
+        height: 190px;
+    }
+    
+    .note h5 {
+        padding-top: 40px;
+        font-size: 18px;
+    }
+
+    .container-footer {
+        width: 530px;
+        margin-left: auto;
+
+        margin-top: 0px;
+    }
+
+    .footer .ypi {
+        margin-top: 30px;
+    }
+
+   .footer .ypi h1 {
+        font-size: 12px;
+        line-height: 20px;
+    
+    }
+    .footer .footer-sm-md {
+        margin-top: -10px;
+    }
+
+    .footer .ypi p {
+        margin-top: -8px;
+        font-size: 12px;
+    }
+
+    .footer .web h1 {
+        margin-top: 1px;
+        font-size: 14px;
+    }
+
+    .footer .web hr {
+        width: 50px;
+        margin-bottom: 8px;
+    }
+
+    .footer .web p {
+        font-size: 12px;
+        margin-bottom: 4px;
+    }
+
+    .footer .others h1 {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .footer .others {
+        margin-top: 0px;
+    }
+
+    .footer .office {
+        margin-top: 0px;
+    }
+
+    .footer .office h1 {
+        font-size: 13px;
+        text-align: left;
+        line-height: 20px;
+    }
+
+    .footer .office p{
+        font-size: 12px;
+        text-align: left;
+        margin-top: -5px;
+        line-height: 17px;
+    }
+}
+
+@media (min-width: 700px){
+
+    .navbar-logo img {
+        width: 170px;
+
+    }
+    
+    .container-jumbotron, .container-choose, .container-footer {
+        width: 630px;
+    }
+
+    .container-jumbotron {
+        margin-top: 10px;
+    }
+
+    .jumbotron-row .jumbotron-text {
+        margin-top: 18px;
+    }
+
+
+    .jumbotron-text h1 {
+        font-size: 24px;
+    }
+
+    .jumbotron-text h2 {
+        font-size: 20px;
+    }
+
+    .jumbotron-text p, .text-tkit1 p, .subtitle p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .jumbotron-img img {
+        height: 170px;
+    }
+
+    .container-tkit {
+        width : 580px;
+    }
+
+    .text-tkit1 h1 {
+        font-size: 19px;
+    }
+
+    .text-tkit1 hr {
+        width: 185px;
+    }
+
+    .text-tkit2 hr {
+        width: 188px;
+    }
+
+    .choose-us .card-choose {
+        width: 600px;
+        margin: auto;
+    }
+
+    .choose-us .card {
+        width: 150px;
+    }
+
+    .container-jenjang {
+        width: 340px;
+    }
+
+    .footer .ypi {
+        margin-top: 40px;
+    }
+
+    .footer .ypi h1, .footer .office h1, .footer .others h1 {
+        font-size: 14px;
+    }
+
+    .footer .web h1 {
+        font-size: 15px;
+    }
+
+    .footer .web hr {
+        margin-bottom: 15px;
+    }
+
+
+    .footer .web p {
+        font-size: 14px;
+    }
+
+    .footer .others {
+        margin-top: 8px;
+    }
+
+    .footer .office h1 {
+        margin-bottom: 15px;
+    }
+
+    .footer .office p {
+        font-size: 14px;
+        line-height: 20px;
+
+    }
+
+    .container-footer {
+        margin-bottom: 15px;
+    }
+
+
+
+
+}
+
+/* ============================================================================================= */
+ 
+/*Tablet Version*/
+ @media (min-width: 768px) { 
+    
+    /* Navbar */   
+
+    /* .navbar .container-fluid {
+        padding-right: 20px;
+        padding-left: 10px;
+    }   */
+
+    .navbar .container-fluid {
+        padding-top : 15px;
+        padding-bottom: 15px;
+    }
+
+    .navbar-logo img {
+        width: 200px;
+    }
+    
+    /* Jumbotron */
+
+    .jumbotron-tk {
+        height: 320px;
+        
+    }
+
+    .container-jumbotron {
+        width: 700px;
+        margin:auto;
+        margin-top: 28px;
+        
+    }
+
+
+    .jumbotron-row .jumbotron-text {
+        margin-top : 7px;
+    }
+        
+    .jumbotron-text h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+        
+    .jumbotron-text h2 {
+        font-size: 27px;
+        font-weight: 700;
+        margin-top: -10px;
+    }
+        
+    .jumbotron-text p {
+        font-size: 17px;
+        line-height: 20px;
+        font-weight: 300;
+        
+    }
+    
+    .jumbotron-img img {
+        width: auto;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        box-shadow: 2px 2px 10px #333232;
+    }
+
+    /* TKIT 1 & 2 */
+
+    .container-tkit{
+        width: 650px;
+        margin-top: 20px;
+    }
+
+    .image-tkit1 img {
+        height: 260px;
+        margin: auto;
+        box-shadow: 2px 2px 7px #333232;
+    }
+
+    .text-tkit1 h1 {
+        margin-top: 5px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .text-tkit1 hr {
+        width: 215px;
+    }
+
+    .text-tkit1 p {
+        margin-top: 15px;
+        font-size: 17px;
+        line-height: 23px;
+        font-weight: 300;
+    }
+
+    .tkit2 {
+        margin-top : 25px;
+    }
+
+    .text-tkit2 hr {
+        width: 218px;
+    }
+
+    .tkit2 img {
+        margin-top: 20px;
+    }
+
+    /* Choose Us */
+
+    .container-choose {
+        margin-top: 40px;
+        width: 700px;
+    }
+
+    .title h1 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .subtitle p {
+        font-size: 17px;
+        line-height: 21px;
+        font-weight: 300;
+    }
+
+    .choose-us .card-md-xl {
+        margin-top: 0px;
+    }
+
+    .choose-us .card-choose {
+        width: auto;
+        height: auto;
+    }
+
+    .choose-us .card {
+        height: 250px;
+        width: 160px;
+    }
+
+    .choose-us .card img, .jenjang .card img {
+        width: 90px;
+        height: 90px;
+        margin-top: 15px;
+    }
+
+    .choose-us .card h5, .jenjang .card h5 {
+        font-family: Josefin Sans;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 0px;
+    } 
+
+    .choose-us .card p, .jenjang .card p {
+        font-weight: 300;
+        font-size: 15px;
+        margin-top: 10px;
+        line-height: 20px;
+    }
+
+    .container-jenjang {
+        margin-top : 30px;
+        width: 360px;
+    }
+
+    .note {
+        height: 250px;
+    }
+
+    .container-note {
+        width: 500px;
+    }
+
+    .note h5 {
+        font-size: 23px;
+        padding-top: 60px;
+    }
+
+    .container-footer {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 740px;
+    }
+
+    .footer .ypi h1, .footer .office h1{
+        font-size: 16px;
+    }
+
+    .footer .others h1 {
+        font-size: 16px;
+    }
+
+   
+ }
+
+/* ================================================================================================ */
+
+/*Desktop Version*/
+@media (min-width: 992px) { 
+
+    /* navbar */
+   
+
+     .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #05c54f;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 3px;
+        margin-bottom: -5px;
+      }
+
+
+      .navbar .container-fluid {
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }  
+
+    .nav-link {
+        margin-left: 20px;
+        font-size: 15px;
+        /* text-shadow: -1px 0 #BEBEBE, 0 1px #BEBEBE, 1px 0 #BEBEBE, 0 -1px #BEBEBE; */
+    }
+
+    .navbar .dropdown-item {
+        font-size: 14px;
+     }
+
+    
+
+    /* Jumbotron */
+
+    .jumbotron-tk {
+        height: 460px;
+    }
+
+    .container-jumbotron {
+        width: 860px;
+        margin: auto;
+        margin-top: 65px;
+    }
+   
+    
+    .jumbotron-row .jumbotron-text {
+        margin-top : 40px;
+    }
+        
+    .jumbotron-text h1 {
+        font-size: 33px;
+        font-weight: 700;
+    }
+        
+    .jumbotron-text h2 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+        
+    .jumbotron-text p {
+        margin-top: 12px;
+        line-height: 27px;
+        font-weight: 300;
+        font-size: 20px;
+    }
+    
+    .jumbotron-img img {
+        margin-top: 0px;
+        height: 260px;
+        width: 370px;
+        margin-left: auto;
+        display: block;
+        box-shadow: 2px 2px 10px #333232;
+        }
+
+    /* TKIT 1 & 2 */
+
+    .container-tkit{
+        width: 800px;
+    }
+
+    .image-tkit1 img {
+        height: 300px;
+        margin: auto;
+        box-shadow: 2px 2px 7px #333232;
+    }
+
+    .text-tkit1 h1 {
+        margin-top: 15px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .text-tkit1 hr {
+        width: 235px;
+    }
+
+    .text-tkit1 p {
+        font-size: 20px;
+        line-height: 27px;
+        font-weight: 300;
+        
+    }
+
+    .tkit2 {
+        margin-top : 20px;
+    }
+
+    .tkit2 img {
+        margin-top: 60px;
+        box-shadow: 2px 2px 7px #333232;
+        width: auto;
+    }
+
+    .tkit2 h1 {
+        margin-top: 45px;
+    }
+
+    .text-tkit2 hr {
+        width: 240px;
+    }
+
+    /* Choose Us */
+
+    .container-choose {
+        width: 860px;
+        margin-top: 70px;
+    }
+
+    .title h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    .subtitle p {
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 300;
+    }
+
+    .choose-us .card, .jenjang .card {
+        height: 310px;
+        width: 185px;
+    }
+
+    .choose-us .card img, .jenjang .card img {
+        width: 105px;
+        height: 105px;
+        margin-top : 20px;
+    }
+
+    .choose-us h5, .jenjang h5 {
+        font-size: 23px;
+        margin-top: 8px;
+        font-weight: 700;
+    }
+
+    .choose-us .card p, .jenjang .card p {
+        font-size: 19px;
+        line-height: 24px;
+        font-weight: 300;
+        margin-top : 15px; 
+    }
+
+    .container-jenjang {
+        width: 430px;
+        margin-top : 30px;
+    }
+
+    .note {
+        height: 290px;
+    }
+
+    .container-note {
+        width: 650px;
+    }
+
+    .note h5 {
+        font-size: 27px;
+        line-height: 35px;
+        padding-top: 80px;
+    }
+
+    .container-footer {
+        width: 900px;
+    }
+
+    .footer .ypi h1, .footer .ypi p {
+        text-align: left;
+    }
+
+    .footer .ypi h1, .footer .web h1 {
+        font-size: 18px;
+    }
+
+    .footer .ypi .footer-sm-md {
+        margin-left: 50px;
+        margin-top: 5px;
+    }
+
+    .footer .ypi p {
+        font-size: 15px;
+        margin-left: 50px;
+        margin-top: 5px;
+    }
+
+    .footer .web {
+        margin-left: -12px;
+    }
+
+    .footer .web hr {
+        width: 70px;
+    }
+
+    .footer .web p {
+        font-size: 16px;
+    }
+
+    .footer .others h1 {
+        font-size: 18px;
+        margin-left: -20px;
+        margin-top: 10px;
+    }
+
+     .footer .office {
+        margin-left: 10px;
+     }
+    
+    .footer .office h1{
+        font-size: 17px;
+    }
+
+    .footer .office p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+         
+}
+
+@media (min-width: 1200px) {
+
+    .container-jumbotron, .container-choose {
+        width: 1070px;
+    }
+    
+    .container-tkit {
+        width: 990px;
+    }
+
+    .choose-us .card-choose {
+        width: 1000px;
+    }
+    
+    .choose-us .card, .jenjang .card {
+        width: 185px;
+    }
+
+    .container-jenjang {
+        width: 460px;
+    }
+
+    .container-footer {
+        width: 1050px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .footer .ypi h1, .footer .web h1, .footer .office h1 {
+        font-size: 20px;
+    }
+
+    .footer .ypi p, .footer .web p {
+        font-size: 17px;
+    }
+
+    .footer .office p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+   
+
+}
+
+@media (min-width: 1450px) {
+
+
+    .navbar .nav-link {
+        font-size: 17px;
+    }
+
+    .container-jumbotron, .container-choose {
+        width: 1300px;
+    }
+
+    .text-tkit1 p, .jumbotron-text p, .choose-us .subtitle p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .container-jumbotron {
+        margin-top: 80px;
+    }
+
+    .jumbotron-tk {
+        height: 530px;
+    }
+
+    .jumbotron-row .jumbotron-text {
+        margin-top: 50px;
+    }
+
+    .jumbotron-text h1 {
+        font-size: 42px;
+    }
+
+    .jumbotron-text h2 {
+        font-size: 35px;
+    }
+
+    .jumbotron-img img {
+        height: 300px;
+        width: 450px;
+        float: right;
+    }
+
+    .container-tkit {
+        width: 1200px;
+    }
+
+    .text-tkit1 h1 {
+        font-size: 29px;
+        margin-top: 20px;
+    }
+
+    .text-tkit2 h1 {
+        margin-top: 65px;
+    }
+
+    .text-tkit1 hr {
+        width: 285px;
+        margin-bottom: 30px;
+    }
+
+    .text-tkit1 hr {
+        width: 289px;
+    }
+
+    .choose-us .title h1 {
+        font-size: 29px;
+    }
+
+    .choose-us .card-choose {
+        width: 1200px;
+    }
+
+    .choose-us .card, .jenjang .card {
+        width: 220px;
+        margin: auto;
+        margin-bottom: 30px;
+        height: 300px;
+    }
+
+    .choose-us .card h5{
+        font-size: 22px;
+    }
+
+    .container-jenjang {
+        width: 550px;
+    }
+
+    .note {
+        height: 350px;
+    }
+
+    .container-note {
+        width: 750px;
+    }
+
+    .note h5 {
+        font-size: 32px;
+        line-height: 40px;
+        padding-top: 100px;
+    }
+
+    .container-footer {
+        width: 1250px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .footer .ypi h1, .footer .web h1, .footer .office h1 {
+        font-size: 22px;
+    } 
+
+    .footer .ypi .footer-sm-md {
+        margin-top: 15px;
+    }
+
+    .footer .web p, .footer .ypi p {
+        font-size: 19px;
+    }
+
+    .footer .others {
+        margin-top: 0px;
+    }
+
+    .footer .others h1 {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+
+    .footer .office p {
+        font-size: 20px;
+        line-height: 32px;
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 1750px) {
+    
+    .container-jumbotron, .container-choose {
+        width: 1450px;
+    }
+
+    .container-tkit {
+        width: 1300px;
+        margin-top: 80px;
+    }
+
+    .image-tkit1 img {
+        height: 370px;
+    }
+
+    .text-tkit1 {
+        margin-top: 25px;
+    }
+
+    .tkit2 .text-tkit2 {
+       padding-top: 25px;
+    }
+
+    .choose-us .container-choose {
+        margin-top: 120px;
+    }
+
+    .choose-us .title h1, .jenjang .title h1 {
+        font-size: 35px;
+    }
+
+    .choose-us .title, .choose-us .subtitle {
+        margin-left:  165px;
+    }
+
+    .container-footer {
+        width: 1500px;
+    }
+}
